@@ -13,15 +13,6 @@ namespace TestApplication {
     public partial class testgithub {
         
         /// <summary>
-        /// class_list control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl class_list;
-        
-        /// <summary>
         /// form1 control.
         /// </summary>
         /// <remarks>

@@ -13,7 +13,7 @@
             width: 90%;
             padding: 10px;
             padding-bottom:20px;
-            background-color: rgba(219, 191, 191, 1.0);
+            background-color: rgba(219, 191, 191, .8);
         }
     </style>
 </head>
@@ -24,19 +24,17 @@
     </header>
     <section>
         <h2>Class List</h2>
-        <ul id="class_list" runat="server">
+        <ul id="class_list">
             <li>Brian Bansenauer</li>
         </ul>
 
     </section>
     <form id="form1" runat="server">
     <div>
-
         <asp:TextBox ID="NameEntry" runat="server"></asp:TextBox> <asp:Button ID="goButton" runat="server" Text="Go!" OnClick="goButton_Click" />
         <div>
             <asp:Label ID="HelloOutput" runat="server" Text=""></asp:Label>
         </div>
-
     </div>
     </form>
 </body>
