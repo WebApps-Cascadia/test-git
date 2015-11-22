@@ -17,6 +17,10 @@ namespace TestApplication
         protected void goButton_Click(object sender, EventArgs e)
         {
             this.HelloOutput.Text = "Hello " + this.NameEntry.Text;
+            if (this.class_list.InnerHtml.Contains(this.NameEntry.Text))
+            {
+                this.HelloOutput.Text += ", you are already on the list";
+            }
         }
     }
 }
