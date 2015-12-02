@@ -19,7 +19,7 @@
 </head>
 <body>
     <header>
-        <h1>Cascadia Web Applications</h1>
+        <h1>Cascadia Test Web Applications</h1>
         <h2>Winter 2016</h2>
     </header>
     <section>
