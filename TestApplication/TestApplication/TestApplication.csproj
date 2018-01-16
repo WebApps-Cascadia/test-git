@@ -26,6 +26,7 @@
     </NuGetPackageImportStamp>
     <ApplicationInsightsResourceId>/subscriptions/009d51d8-8b40-4761-a48e-a1a19616c10d/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/TestApplication</ApplicationInsightsResourceId>
     <TargetFrameworkProfile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -88,6 +89,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AugustusDegrandis.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
