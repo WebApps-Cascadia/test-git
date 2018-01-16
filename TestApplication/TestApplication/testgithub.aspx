@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Cascadia Web Applications</title>
+    <title>Cascadia Web Applications Ben Bell</title>
     <style>
         body {background-color: moccasin;}
         #form1 {
@@ -19,6 +19,7 @@
 </head>
 <body>
     <header>
+        <h1>B-Fresh</h1>
         <h1>Cascadia Test Web Applications</h1>
     </header>
     <section>
