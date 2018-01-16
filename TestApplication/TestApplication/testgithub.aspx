@@ -24,7 +24,7 @@
     <section>
         <h2>Class List</h2>
         <ul id="class_list">
-            <li>Brian Bansenauer</li>
+            <li>Mei'lani Eyre</li>
         </ul>
 
     </section>
