@@ -24,13 +24,13 @@
     <section>
         <h2>Class List</h2>
         <ul id="class_list">
-            <li>Brian Bansenauer</li>
+            <li>Brenda Bruil</li>
         </ul>
 
     </section>
     <form id="form1" runat="server">
     <div>
-        <asp:TextBox ID="NameEntry" runat="server"></asp:TextBox> <asp:Button ID="goButton" runat="server" Text="Go!" OnClick="goButton_Click" />
+        <asp:TextBox ID="NameEntry" runat="server"></asp:TextBox><asp:Button ID="goButton" runat="server" Text="Go!" OnClick="goButton_Click" />
         <div>
             <asp:Label ID="HelloOutput" runat="server" Text=""></asp:Label>
         </div>
