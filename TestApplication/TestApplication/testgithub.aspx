@@ -25,6 +25,7 @@
         <h2>Class List</h2>
         <ul id="class_list">
             <li>Brian Bansenauer</li>
+            <li>Daniel Watkins</li>
         </ul>
 
     </section>
