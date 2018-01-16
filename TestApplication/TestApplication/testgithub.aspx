@@ -15,6 +15,10 @@
             padding-bottom:20px;
             background-color: rgba(219, 191, 191, .8);
         }
+        .me {
+            color: red;
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
@@ -25,6 +29,7 @@
         <h2>Class List</h2>
         <ul id="class_list">
             <li>Brian Bansenauer</li>
+            <li class="me">Aliaksandr Usoski</li>
         </ul>
 
     </section>
