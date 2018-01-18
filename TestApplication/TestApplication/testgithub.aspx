@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Cascadia Web Applications</title>
+    <title>Cascadia Web Applications Ben Bell</title>
     <style>
         body {background-color: moccasin;}
         #form1 {
@@ -13,30 +13,28 @@
             width: 90%;
             padding: 10px;
             padding-bottom:20px;
-            background-color: rgba(219, 191, 191, 1.0);
+            background-color: rgba(219, 191, 191, .8);
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Cascadia Web Applications</h1>
-        <h2>Winter 2016</h2>
+        <h1>B-Fresh</h1>
+        <h1>Cascadia Test Web Applications</h1>
     </header>
     <section>
         <h2>Class List</h2>
-        <ul id="class_list" runat="server">
+        <ul id="class_list">
             <li>Brian Bansenauer</li>
         </ul>
 
     </section>
     <form id="form1" runat="server">
     <div>
-
         <asp:TextBox ID="NameEntry" runat="server"></asp:TextBox> <asp:Button ID="goButton" runat="server" Text="Go!" OnClick="goButton_Click" />
         <div>
             <asp:Label ID="HelloOutput" runat="server" Text=""></asp:Label>
         </div>
-
     </div>
     </form>
 </body>
